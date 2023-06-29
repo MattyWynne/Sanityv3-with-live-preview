@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "target": "ES2017"
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.tsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "tailwind.config.js",
+    "app/layout.jsx",
+    "prisma/client.ts",
+    "app/componants/Hero/Index.js",
+    "app/auth/Nav.tsx",
+    "script.js",
+    "seed.js",
+    "prisma/seed.ts",
+    "app/page.tsx",
+    "app/componants/Hero/postcode.js",
+    ".next/types/**/*.ts",
+    "src/app/(user)/(blog)/blog/[blogid]"
+  ],
+  "exclude": ["node_modules"]
+}
